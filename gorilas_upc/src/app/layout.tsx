@@ -17,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-black" suppressHydrationWarning>
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"></link>
+      </head>
 			<body className="w-screen h-screen">{children}
 			</body>
 		</html>
