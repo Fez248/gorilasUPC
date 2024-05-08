@@ -1,9 +1,10 @@
 {
   "name": "gorilas_upc",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node --trace-deprecation --trace-warnings ./node_modules/.bin/next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
