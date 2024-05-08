@@ -2,7 +2,7 @@ import Image from "next/legacy/image";
 
 export default function NavBar() {
     return (
-        <div>
+        <div className="z-20">
             <div className="flex gap-3 place-content-around h-[50px] items-center" style={{ fontFamily: 'Rubik' }}>
                 <a>CONTACTE</a>
                 <a>VULL ENTRENAR</a>
