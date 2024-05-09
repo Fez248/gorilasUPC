@@ -8,3 +8,5 @@ https://open.spotify.com/intl-es/track/3njI5vWbMeZWcTYy6a30Tt?si=771e52602fea4b2
           <p className="text-3xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore veniam quia eligendi, omnis itaque nostrum nemo tenetur id nesciunt necessitatibus temporibus quidem esse ut dolorum quo? Eligendi quos modi odit?</p>
         </div>
       </div>
+
+top-[${rh.toString()}px] left-[${rw.toString()}px]
