@@ -4,10 +4,8 @@ import HeroLayout from "./heroLayout";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen flex-col">
-      <NavBar></NavBar>
+    <div className="h-screen w-screen">
       <HeroLayout></HeroLayout>
-      <p className="absolute">Holaa</p>
     </div>
   );
 }
