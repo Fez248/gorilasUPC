@@ -20,7 +20,7 @@ export default function HeroLayout() {
                 const nextIndex = (currentIndex + 1) % images.length;
                 return images[nextIndex];
             });
-        }, 30000); // change image every 10 seconds
+        }, 20000); // change image every 10 seconds
 
         return () => clearInterval(intervalId); // clean up on component unmount
     }, []);

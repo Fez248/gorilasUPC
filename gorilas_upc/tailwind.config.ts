@@ -1,7 +1,11 @@
 import {nextui} from '@nextui-org/theme';
+import { NodeNextRequest } from 'next/dist/server/base-http/node';
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  plugins: [
+    nextui(),
+  ],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,6 +21,5 @@ const config: Config = {
       },
     },
   },
-  plugins: [nextui()],
 };
 export default config;
