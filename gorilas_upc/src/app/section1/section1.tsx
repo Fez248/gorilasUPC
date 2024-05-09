@@ -44,7 +44,7 @@ const Section1 = () => {
 
     return (
         <div className="h-screen w-screen">
-            {enhance({dens: 100})}
+            {enhance({dens: 200})}
         </div>
     );
 };
