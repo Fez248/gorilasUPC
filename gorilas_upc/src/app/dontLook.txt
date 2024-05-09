@@ -10,3 +10,21 @@ https://open.spotify.com/intl-es/track/3njI5vWbMeZWcTYy6a30Tt?si=771e52602fea4b2
       </div>
 
 top-[${rh.toString()}px] left-[${rw.toString()}px]
+
+
+<div className="flex">
+          <div className="relative z-40 bg-[#edf1f7] w-[30%] mt-[2%] ml-[2%] rounded">
+            <h2 className="text-[#166BCB] uppercase font-rubik text-4xl">Qui Som?</h2>
+          </div>
+          <div className="flex-grow relative z-40 bg-[#edf1f7] mt-[2%] ml-[2%] mr-[2%] rounded">
+            <h2 className="text-[#166BCB] uppercase font-rubik text-4xl">Coneix a les Goriles</h2>
+          </div>
+        </div>
+        <div className="flex">
+          <div className="relative z-40 bg-[#edf1f7] w-[30%] mt-[2%] ml-[2%] rounded">
+            <p className="text-[#166BCB] font-rubik text-xl">He perdut els textos que va fer la julia aaaa (no me mates porfa) t'estimoo.<br></br><br></br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro odio laudantium ea, repellat nobis, doloribus mollitia excepturi expedita provident aperiam officiis assumenda blanditiis eos explicabo voluptas. Omnis fugiat unde reiciendis! Lorem <br></br><br></br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa velit id quas placeat veritatis sit libero ratione totam architecto voluptate adipisci, officiis cum eos! Cumque dolorem qui alias vel cum.</p>
+          </div>
+          <div className="relative z-40 flex-grow justify-center items-center">
+
+          </div>
+        </div>
