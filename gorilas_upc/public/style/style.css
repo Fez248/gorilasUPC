@@ -1,3 +1,7 @@
 .team:hover :nth-child(1) {
     display: inline;
 }
+
+.title {
+    display: inline;
+}

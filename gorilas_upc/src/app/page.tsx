@@ -2,10 +2,12 @@ import HeroLayout from "./heroLayout";
 import MeetCard from "./meetCard/meetCard";
 import { Image } from "@nextui-org/image";
 import "../../public/style/style.css";
+import Home2 from "./page2";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen">
+    <Home2></Home2>
+    /*<div className="h-screen w-screen">
       <div className="h-screen w-screen bg-black">
         <HeroLayout></HeroLayout>
       </div>
@@ -27,7 +29,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+  </div>*/
   );
 }
-

@@ -19,9 +19,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "bananas": "url(/images/background.png)",
+        "heroImage": "url(/images/heroImage5.JPG)",
+        "heroImage2": "url(/images/heroImage4.JPG)",
       },
       fontFamily: {
         'rubik': ['Rubik', 'sans-serif'],
+        'bebas-neue':  ['Bebas Neue', 'sans-serif'],    
       }
     },
   },

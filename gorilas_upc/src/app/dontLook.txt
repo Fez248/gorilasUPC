@@ -28,3 +28,19 @@ top-[${rh.toString()}px] left-[${rw.toString()}px]
 
           </div>
         </div>
+
+
+<div className="">
+  <span className="text-[14rem] text-[#f1843b] font-bebas-neue">
+    <span>R</span>
+    <span>U</span>
+    <span>G</span>
+    <span>B</span>
+    <span>Y</span>
+  </span>
+  <span className="text-[14rem] text-[#ffffff] font-bebas-neue">
+    <span>U</span>
+    <span>P</span>
+    <span>C</span>
+  </span>
+</div>
