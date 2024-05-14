@@ -5,7 +5,7 @@ export default function Home2() {
         <div>
             <div className="bg-heroImage2 h-screen w-screen bg-cover bg-center blur-sm">
             </div>
-            <div className="flex flex-col items-center absolute z-10 top-0 w-screen h-screen gap-y-0">
+            <div className="flex flex-col absolute z-10 top-0 w-screen h-screen gap-y-0">
                 <div className="">
                     <span className="text-[14rem] text-[#ffffff] font-bebas-neue">
                         <span className="title" id="l1">G</span>
@@ -20,20 +20,6 @@ export default function Home2() {
                         <span className="title" id="l8">U</span>
                         <span className="title" id="l9">P</span>
                         <span className="title" id="l10">C</span>
-                    </span>
-                </div>
-                <div className="">
-                    <span className="text-[14rem] text-[#f1843b] font-bebas-neue">
-                        <span>R</span>
-                        <span>U</span>
-                        <span>G</span>
-                        <span>B</span>
-                        <span>Y</span>
-                    </span>
-                    <span className="text-[14rem] text-[#ffffff] font-bebas-neue">
-                        <span>U</span>
-                        <span>P</span>
-                        <span>C</span>
                     </span>
                 </div>
             </div>

@@ -2,6 +2,31 @@
     display: inline;
 }
 
+@keyframes anim {
+    0% {
+        transform: translate(0);
+        z-index: 10;
+    }
+    25% {
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    50% {
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    100% {
+        z-index: 10;
+    }
+    
+}
+
 .title {
-    display: inline;
+    position: absolute;
+}
+
+#l1 {
+    position: absolute;
+    animation: anim 2s ease-in-out infinite;
+    animation-duration: 3s;
 }
