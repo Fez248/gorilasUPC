@@ -1,6 +1,6 @@
 .title, .title2 {
     display: inline-block;
-    font-size: 14rem;
+    font-size: 12rem;
 }
 
 .aa, .aa2 {
@@ -8,21 +8,40 @@
 }
 
 @keyframes anim {
-    0%, 45.4545% {
+    0%, 48% {
         transform: translateY(0);
     }
-    54.5455%, 100% {
+    49% {
         transform: translateY(-100%);
+        visibility: hidden;
     }
+    51%, 99% {
+        visibility: hidden;
+        transform: translateY(200%);
+    }
+    100% {
+        visibility: visible;
+        transform: translateY(0);
+    }   
 }
 
-#l1 { animation: anim 11s infinite forwards; }
-#l2 { animation: anim 11s infinite forwards; animation-delay: 0.05s; }
-#l3 { animation: anim 11s infinite forwards; animation-delay: 0.10s; }
-#l4 { animation: anim 11s infinite forwards; animation-delay: 0.20s; }
-#l5 { animation: anim 11s infinite forwards; animation-delay: 0.30s; }
-#l6 { animation: anim 11s infinite forwards; animation-delay: 0.40s; }
-#l7 { animation: anim 11s infinite forwards; animation-delay: 0.50s; }
-#l8 { animation: anim 11s infinite forwards; animation-delay: 0.60s; }
-#l9 { animation: anim 11s infinite forwards; animation-delay: 0.70s; }
-#l10 { animation: anim 11s infinite forwards; animation-delay: 0.80s; }
+/*Surely there is a cleaner way to write this code, sorry to whoever is readind this, is my first css animation ever*/
+#l1 { animation: anim 10s infinite forwards; }
+#l2 { animation: anim 10s infinite forwards; animation-delay: 0.1s; }
+#l3 { animation: anim 10s infinite forwards; animation-delay: 0.20s; }
+#l4 { animation: anim 10s infinite forwards; animation-delay: 0.30s; }
+#l5 { animation: anim 10s infinite forwards; animation-delay: 0.40s; }
+#l6 { animation: anim 10s infinite forwards; animation-delay: 0.50s; }
+#l7 { animation: anim 10s infinite forwards; animation-delay: 0.60s; }
+#l8 { animation: anim 10s infinite forwards; animation-delay: 0.70s; }
+#l9 { animation: anim 10s infinite forwards; animation-delay: 0.80s; }
+#l10 { animation: anim 10s infinite forwards; animation-delay: 0.90s; }
+
+#l11 { animation: anim 10s infinite forwards; animation-delay: 5.0s; }
+#l12 { animation: anim 10s infinite forwards; animation-delay: 5.1s; }
+#l13 { animation: anim 10s infinite forwards; animation-delay: 5.2s; }
+#l14 { animation: anim 10s infinite forwards; animation-delay: 5.3s; }
+#l15 { animation: anim 10s infinite forwards; animation-delay: 5.4s; }
+#l16 { animation: anim 10s infinite forwards; animation-delay: 5.5s; }
+#l17 { animation: anim 10s infinite forwards; animation-delay: 5.6s; }
+#l18 { animation: anim 10s infinite forwards; animation-delay: 5.7s; }

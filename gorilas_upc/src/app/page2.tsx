@@ -23,16 +23,16 @@ export default function Home2() {
             </div>
             <div className="absolute overflow-hidden z-10 top-[50%] w-screen h-[16rem] gap-y-0">
                 <span className="aa2 text-[14rem] text-[#ee7c31] font-bebas-neue">
-                    <span className="title2" id="l1">R</span>
-                    <span className="title2" id="l2">U</span>
-                    <span className="title2" id="l3">G</span>
-                    <span className="title2" id="l4">B</span>
-                    <span className="title2" id="l5">Y</span>
+                    <span className="title2" id="l11">R</span>
+                    <span className="title2" id="l12">U</span>
+                    <span className="title2" id="l13">G</span>
+                    <span className="title2" id="l14">B</span>
+                    <span className="title2" id="l15">Y</span>
                 </span>
                 <span className="text-[14rem] text-[#ffffff] font-bebas-neue">
-                    <span className="title2" id="l8">U</span>
-                    <span className="title2" id="l9">P</span>
-                    <span className="title2" id="l10">C</span>
+                    <span className="title2" id="l16">U</span>
+                    <span className="title2" id="l17">P</span>
+                    <span className="title2" id="l18">C</span>
                 </span>
             </div>
         </div>
