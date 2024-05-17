@@ -1,4 +1,5 @@
 import {nextui} from '@nextui-org/theme';
+import { url } from 'inspector';
 import { NodeNextRequest } from 'next/dist/server/base-http/node';
 import type { Config } from "tailwindcss";
 
@@ -21,6 +22,7 @@ const config: Config = {
         "bananas": "url(/images/background.png)",
         "heroImage": "url(/images/heroImage5.JPG)",
         "heroImage2": "url(/images/heroImage4.JPG)",
+        "menu": "url(/images/menu.png)",
       },
       fontFamily: {
         'rubik': ['Rubik', 'sans-serif'],
