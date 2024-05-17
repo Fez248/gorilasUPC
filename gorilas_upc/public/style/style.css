@@ -1,32 +1,28 @@
-.team:hover :nth-child(1) {
-    display: inline;
+.title, .title2 {
+    display: inline-block;
+    font-size: 14rem;
+}
+
+.aa, .aa2 {
+    display: inline-block;
 }
 
 @keyframes anim {
-    0% {
-        transform: translate(0);
-        z-index: 10;
+    0%, 45.4545% {
+        transform: translateY(0);
     }
-    25% {
-        transform: translateY(-50%);
-        z-index: 10;
+    54.5455%, 100% {
+        transform: translateY(-100%);
     }
-    50% {
-        transform: translateY(-50%);
-        z-index: 10;
-    }
-    100% {
-        z-index: 10;
-    }
-    
 }
 
-.title {
-    position: absolute;
-}
-
-#l1 {
-    position: absolute;
-    animation: anim 2s ease-in-out infinite;
-    animation-duration: 3s;
-}
+#l1 { animation: anim 11s infinite forwards; }
+#l2 { animation: anim 11s infinite forwards; animation-delay: 0.05s; }
+#l3 { animation: anim 11s infinite forwards; animation-delay: 0.10s; }
+#l4 { animation: anim 11s infinite forwards; animation-delay: 0.20s; }
+#l5 { animation: anim 11s infinite forwards; animation-delay: 0.30s; }
+#l6 { animation: anim 11s infinite forwards; animation-delay: 0.40s; }
+#l7 { animation: anim 11s infinite forwards; animation-delay: 0.50s; }
+#l8 { animation: anim 11s infinite forwards; animation-delay: 0.60s; }
+#l9 { animation: anim 11s infinite forwards; animation-delay: 0.70s; }
+#l10 { animation: anim 11s infinite forwards; animation-delay: 0.80s; }
