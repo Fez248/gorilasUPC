@@ -3,12 +3,14 @@ import "../../public/style/style.css";
 export default function Home2() {
     return (
         <div className="bg-heroImage2 h-screen w-screen bg-cover bg-center">
-            <div className="absolute h-screen w-screen bg-black opacity-[0.4]">
+            <div className="absolute h-screen w-screen bg-black opacity-[0.4] pointer-events-none">
             </div>
-            <div className="wrapper">
-                <div className="element3 z-10">
-                    <button></button>
-                </div>
+            <div className="wrapper h-screen">
+                <nav className="navbar flex justify-around mt-[1%] font-rubik">
+                    <p>Holaa</p>
+                    <a className="text-2xl" href="#section2">VULL ENTRENAR</a>
+                    <p>Adios</p>
+                </nav>
                 <div className="overflow-hidden z-10 element1">
                     <span className="text-[#ffffff] font-bebas-neue">
                         <span className="title" id="l1">G</span>
@@ -40,6 +42,12 @@ export default function Home2() {
                     </span>
                 </div>
             </div>
+            <section className="h-screen">
+
+            </section>
+            <section id="section2" className="h-screen bg-[#232324]">
+    
+            </section>
         </div>
     );
 }
