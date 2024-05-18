@@ -47,10 +47,15 @@ export default function Home2() {
 
             </section>
             <section id="section2" className="flex gap-x-[5%] h-screen bg-[#232324]">
-                <div id="map" className="location bg-white">
+                <div id="map" className="location rounded">
                     <MapField></MapField>
                 </div>
-                <p>Hola</p>
+                <div className="flex-col mt-[5%] font-rubik text-balance w-[50%]">
+                    <p className="text-6xl">Vols Entrenar?</p>
+                    <p className="text-md mt-[5%]">Tothom és benvingut, siguis de la universitat que siguis, estudiïs el que estudiïs, siguis d'aquí o estiguis d'Erasmus,
+                    siguis un samoano de 120 kg o mai hagis jugat a rugby, tothom és benvingut a formar part de la família Goril·les UPC.
+                    T'esperem al camp del Sitari d'Esports UB: <br></br> Av. Diagonal, 695, Les Corts, 08028 Barcelona</p>
+                </div>
             </section>
         </div>
     );

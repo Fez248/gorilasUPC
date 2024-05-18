@@ -29,7 +29,8 @@ const MapField = () => {
                         shadowSize: [41, 41]
                     });
 
-                    L.marker([41.381097, 2.103240], { icon: defaultIcon }).addTo(mapRef.current);
+                    L.marker([41.381097, 2.103240], { icon: defaultIcon }).addTo(mapRef.current)
+                        .bindPopup('Camp Sitari');
                 }
             }
         };
