@@ -1,4 +1,5 @@
 import "../../public/style/style.css";
+import MapField from "./map/mapField";
 
 export default function Home2() {
     return (
@@ -45,8 +46,11 @@ export default function Home2() {
             <section className="h-screen">
 
             </section>
-            <section id="section2" className="h-screen bg-[#232324]">
-    
+            <section id="section2" className="flex gap-x-[5%] h-screen bg-[#232324]">
+                <div id="map" className="location bg-white">
+                    <MapField></MapField>
+                </div>
+                <p>Hola</p>
             </section>
         </div>
     );
