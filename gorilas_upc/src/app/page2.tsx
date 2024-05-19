@@ -50,7 +50,7 @@ export default function Home2() {
                 <div id="map" className="location rounded">
                     <MapField></MapField>
                 </div>
-                <div className="flex-col mt-[5%] font-rubik text-balance w-[50%]">
+                <div className="flex-col mt-[5%] font-rubik text-balance w-[50%] mr-[10%]">
                     <p className="text-6xl">Vols Entrenar?</p>
                     <p className="text-md mt-[5%]">Tothom és benvingut, siguis de la universitat que siguis, estudiïs el que estudiïs, siguis d'aquí o estiguis d'Erasmus,
                     siguis un samoano de 120 kg o mai hagis jugat a rugby, tothom és benvingut a formar part de la família Goril·les UPC.
