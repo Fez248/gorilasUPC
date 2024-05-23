@@ -1,12 +1,15 @@
+import { px } from "framer-motion";
 import "../../public/style/style.css";
 import MapField from "./map/mapField";
+import Image from 'next/image';
+import { autocomplete } from "@nextui-org/theme";
 
 export default function Home2() {
     return (
         <div className="bg-heroImage2 h-screen w-screen bg-cover bg-center">
             <div className="absolute h-screen w-screen bg-black opacity-[0.4] pointer-events-none">
             </div>
-            <div className="wrapper h-screen">
+            <section className="wrapper h-screen">
                 <nav className="navbar flex justify-around mt-[1%] font-rubik">
                     <p>Holaa</p>
                     <a className="text-2xl" href="#section2">VULL ENTRENAR</a>
@@ -42,9 +45,12 @@ export default function Home2() {
                         <span className="title2" id="l18">C</span>
                     </span>
                 </div>
-            </div>
-            <section className="h-screen">
-
+            </section>
+            <section className="h-screen bg-[#232324] overflow-hidden">
+                <div className="relative w-[15%] left-[13%] top-[11%]"> <img className="object-contain" src="/images/wosito.jpg"></img> </div>
+                <div className="relative w-[15%] left-[63%] top-[0%]"> <img className="object-contain" src="/images/wosito.jpg"></img> </div>
+                <div className="relative w-[15%] left-[24%] -top-[20%]"> <img className="object-contain" src="/images/wosito.jpg"></img> </div>
+                <div className="relative w-[15%]"> <img className="object-contain" src="/images/wosito.jpg"></img> </div>
             </section>
             <section id="section2" className="flex gap-x-[5%] h-screen bg-[#232324]">
                 <div id="map" className="location rounded">
@@ -54,7 +60,7 @@ export default function Home2() {
                     <p className="text-6xl">Vols Entrenar?</p>
                     <p className="text-md mt-[5%]">Tothom és benvingut, siguis de la universitat que siguis, estudiïs el que estudiïs, siguis d'aquí o estiguis d'Erasmus,
                     siguis un samoano de 120 kg o mai hagis jugat a rugby, tothom és benvingut a formar part de la família Goril·les UPC.
-                    T'esperem al camp del Sitari d'Esports UB: <br></br> Av. Diagonal, 695, Les Corts, 08028 Barcelona</p>
+                    <br></br> <br></br>T'esperem al camp del Sitari d'Esports UB els divendres a les 19:15: <br></br> <br></br>Av. Diagonal, 695, Les Corts, 08028 Barcelona</p>
                 </div>
             </section>
         </div>
