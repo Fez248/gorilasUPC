@@ -1,7 +1,5 @@
 "use client";
 import { useEffect, useRef } from 'react';
-import dynamic from 'next/dynamic';
-import "../../../public/style/style.css";
 
 const MapField = () => {
     const mapRef = useRef(null);

@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import InitAOS from "../../public/scripts/aos";
 import { Inter } from "next/font/google";
+import type { Metadata } from "next";
 import "./globals.css";
-import clsx from "clsx";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,15 +18,24 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-black" suppressHydrationWarning>
       <head>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"></link>
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+          <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"></link>
+          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
           crossOrigin=""/>
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
           crossOrigin=""></script>
+          <InitAOS />
       </head>
-			<body className="w-screen h-screen overflow-x-hidden">{children}
+			<body className="w-screen h-screen overflow-x-hidden">
+        <header>
+          <nav className="navbar flex justify-around mt-[1%] font-rubik">
+            <p>Holaa</p>
+            <a className="text-2xl" href="#section2">VULL ENTRENAR</a>
+            <p>Adios</p>
+          </nav>
+        </header>
+        {children}
 			</body>
 		</html>
   );
