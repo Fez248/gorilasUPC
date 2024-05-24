@@ -29,7 +29,7 @@ export default function RootLayout({
       </head>
 			<body className="w-screen h-screen overflow-x-hidden">
         <header>
-          <nav className="navbar flex justify-around mt-[1%] font-rubik">
+          <nav className="navbar flex justify-around font-rubik bg-gradient-to-t from-transparent to-black via-black">
             <p>Holaa</p>
             <a className="text-2xl" href="#section2">VULL ENTRENAR</a>
             <p>Adios</p>

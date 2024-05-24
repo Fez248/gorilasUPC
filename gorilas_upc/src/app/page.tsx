@@ -2,10 +2,10 @@ import MapField from "./map/page";
 
 export default function Home() {
     return (
-        <div className="bg-heroImage2 h-screen w-screen bg-cover bg-center">
-            <div className="absolute h-screen w-screen bg-black opacity-[0.4] pointer-events-none">
-            </div>
+        <div className="bg-[#232324]">
             <div className="wrapper h-screen">
+                <div className="absolute bg-heroImage2 h-screen w-screen bg-cover bg-center"></div>
+                <div className="absolute h-screen w-screen bg-black opacity-[0.4] pointer-events-none"></div>
                 <div className="overflow-hidden z-10 element1">
                     <span className="text-[#ffffff] font-bebas-neue">
                         <span className="title" id="l1">G</span>
@@ -37,13 +37,14 @@ export default function Home() {
                     </span>
                 </div>
             </div>
-            <section className="h-[200%] bg-[#232324] overflow-hidden">
-                <div className="relative w-[15%] left-[13%] top-[11%]" data-aos="fade-up"> <img className="object-contain" src="/images/wosito.jpg"></img> </div>
-                <div className="relative w-[15%] left-[63%] top-[0%]" data-aos="fade-up"> <img className="object-contain" src="/images/canserbero.png"></img> </div>
-                <div className="relative w-[15%] left-[24%] -top-[0%]" data-aos="fade-up"> <img className="object-contain" src="/images/canserbero2.jpg"></img> </div>
-                <div className="relative w-[15%] left-[59%] -top-[5%]" data-aos="fade-up"> <img className="object-contain" src="/images/littlesimz.jpg"></img> </div>
+            <section className="mt-[5%]">
+                <div className="w-[15%] relative left-[11%]" data-aos="fade-up"> <img className="object-contain" src="/images/wosito.jpg"></img> </div>
+                <div className="w-[15%] relative left-[56%]" data-aos="fade-up"> <img className="object-contain" src="/images/canserbero.png"></img> </div>
+                <div className="w-[15%] relative left-[24%]" data-aos="fade-up"> <img className="object-contain" src="/images/canserbero2.jpg"></img> </div>
+                <div className="w-[15%] relative left-[63%]" data-aos="fade-up"> <img className="object-contain" src="/images/littlesimz.jpg"></img> </div>
+                <div className="w-[15%] relative left-[19%]" data-aos="fade-up"> <img className="object-contain" src="/images/kaseo.jpg"></img> </div>
             </section>
-            <section id="section2" className="flex gap-x-[5%] h-screen bg-[#232324]">
+            <section id="section2" className="flex gap-x-[5%] h-screen">
                 <div id="map" className="location rounded">
                     <MapField></MapField>
                 </div>
